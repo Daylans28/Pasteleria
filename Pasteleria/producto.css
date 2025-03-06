@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff5e1;
+    text-align: center;
+}
+
+header {
+    background-color: #1394cc;
+    color: #fff5e1;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px  solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    border-bottom-color: #43e9ff;
+}
+
+.producto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.producto > div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.Bizcocho-Blanco,
+.Bizcocho-Chocolate {
+    margin-bottom: 20px;
+    flex-basis: 30%; 
+    text-align: center;
+}
+
+
+.Bizcocho-Blanco img,
+.Bizcocho-Chocolate img {
+    width: 70%; 
+    height: auto;
+}
+
+
+
+
+
+
+footer {
+    background-color: rgb(19, 148, 204);
+    color: white;
+    padding: 10px;
+    margin-top: 142px;
+}

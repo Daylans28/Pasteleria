@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff5e1;
+    text-align: center;
+}
+
+header {
+    background-color: #1394cc;
+    color: #fff5e1;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px  solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    border-bottom-color: #43e9ff;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x600/?cake') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #43e9ff;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #1394cc;
+    color: white;
+    padding: 10px;
+    margin-top: 142px;
+}
+
+.logo{
+    width: 60px;
+    height: 90px;
+    margin-bottom: 150px;
+    margin-left: 300px;
+}
